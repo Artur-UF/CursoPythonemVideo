@@ -1,0 +1,11 @@
+#CORES| Style: 0, 1, 4, 7 | Text: 30-37 | Back: 40-47 |
+print('\033[7:40mIsso é um teste\033[m')
+print('\033[7:40mIsso é um teste\033[m')
+print('\033[0:30mIsso é branco\033[m')
+print('\033[0:31mIsso é vermelho\033[m')
+print('\033[0:32mIsso é verde\033[m')
+print('\033[0:33mIsso é amarelo\033[m')
+print('\033[0:34mIsso é azul\033[m')
+print('\033[0:35mIsso é lilás\033[m')
+print('\033[0:36mIsso é ciano\033[m')
+print('\033[0:37mIsso é cinza\033[m')

@@ -1,0 +1,5 @@
+n = str(input('Nome: ')).strip()
+print('O primeiro nome é: {}'.format(n.split()[0]))
+print('O último nome é: {}'.format(n.split()[len(n.split())-1]))
+a = n.split()
+print('O último nome é {}'.format(a[-1]))

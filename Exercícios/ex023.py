@@ -1,0 +1,10 @@
+from math import trunc
+n = int(input('Número: '))
+n1 = trunc(n/1000)
+n2 = trunc((n - (n1*1000))/100)
+n3 = trunc((n - (trunc(n/100)*100))/10)
+n4 = n - (trunc(n/10)*10)
+print('Milhar: {}'.format(n1))
+print('Centena: {}'.format(n2))
+print('Dezena: {}'.format(n3))
+print('Unidade: {}'.format(n4))

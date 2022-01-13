@@ -1,0 +1,1 @@
+# Volta lá pra saber oq é, são bases numéricas
